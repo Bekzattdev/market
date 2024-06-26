@@ -1,0 +1,61 @@
+.main_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.block input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 18px;
+  border-radius: 15px;
+  border: solid 1px #000000;
+}
+
+.block button {
+  width: 320px;
+  height: 55px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 15px;
+  background: #2dbbd7;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.block div {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.block a {
+  width: 40%;
+  text-decoration: none;
+  align-self: flex-end;
+  color: #000;
+}
+
+.agree input {
+  width: 20px;
+}
+.agree {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
